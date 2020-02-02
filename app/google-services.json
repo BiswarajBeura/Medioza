@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1064658299546",
+    "firebase_url": "https://mediozo-b2ec0.firebaseio.com",
+    "project_id": "mediozo-b2ec0",
+    "storage_bucket": "mediozo-b2ec0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064658299546:android:c45260a59f5f74f1ad0d23",
+        "android_client_info": {
+          "package_name": "com.example.mediozo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1064658299546-scfjtk677g21fvt5q8v8o8emlebn93s9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mediozo",
+            "certificate_hash": "3623156b833282dda819e7360c1ccceba3ae3484"
+          }
+        },
+        {
+          "client_id": "1064658299546-benfh99mamdktmfk9fmbk0kbe6qlg1gs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mediozo",
+            "certificate_hash": "8bc89409c815d30306dc1bc57df5beb733318cb5"
+          }
+        },
+        {
+          "client_id": "1064658299546-m6r5la1ov89pkj55bq0tc1brs1shi071.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhWwnvVG1hfKWN7JHmPG91c6rWWJVoqBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1064658299546-m6r5la1ov89pkj55bq0tc1brs1shi071.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

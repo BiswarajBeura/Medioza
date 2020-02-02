@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppointmentBooking">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="381dp"
+                android:layout_height="54dp"
+                android:layout_margin="15dp"
+                android:hint="Name"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/phnnumber"
+                android:layout_width="381dp"
+                android:layout_height="54dp"
+                android:layout_margin="15dp"
+                android:hint="Phone Number"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="344dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:padding="10dp"
+                android:text="Select Department" />
+
+            <Spinner
+                android:id="@+id/deptDropDown"
+                android:layout_width="354dp"
+                android:layout_marginLeft="25dp"
+                android:layout_height="50dp" />
+
+            <Button
+                android:id="@+id/next1"
+                android:layout_width="188dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="10dp"
+                android:text="Find Doctors" />
+
+            <TextView
+                android:id="@+id/ava"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:visibility="invisible"
+                android:text="Avalaible Doctors (Select one to continue)" />
+
+            <ListView
+                android:id="@+id/doclist"
+                android:layout_width="374dp"
+                android:layout_height="214dp"
+                android:layout_marginLeft="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

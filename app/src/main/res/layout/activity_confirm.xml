@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmActivity">
+
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="370dp"
+        android:layout_height="161dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="195dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="24dp"
+        android:padding="10dp"
+        android:text="Select A Time Slot"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/details"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/ts1"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="191dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="12dp"
+        android:onClick="selectTime"
+        android:tag="1"
+        app:layout_constraintEnd_toStartOf="@+id/ts2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/ts5"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="191dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="212dp"
+        android:onClick="selectTime"
+        android:tag="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/details"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/ts2"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="191dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="12dp"
+        android:onClick="selectTime"
+        android:tag="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/details" />
+
+    <Button
+        android:id="@+id/ts3"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="191dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:onClick="selectTime"
+        android:tag="3"
+        app:layout_constraintEnd_toStartOf="@+id/ts4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ts1" />
+
+    <Button
+        android:id="@+id/ts4"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="191dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="12dp"
+        android:onClick="selectTime"
+        android:tag="4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ts2" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="403dp"
+        android:layout_height="115dp"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.529" />
+
+    <Button
+        android:id="@+id/finalBtn"
+        android:layout_width="323dp"
+        android:layout_height="59dp"
+        android:text="Fix Appointment"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ts5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
