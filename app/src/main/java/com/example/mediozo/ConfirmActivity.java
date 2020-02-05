@@ -184,7 +184,9 @@ public class ConfirmActivity extends AppCompatActivity {
                         + "\n" + "Department: " + deptname + "\n" + "Appointment with " + doctorname +
                         "\n" + "TIME : " + messagetoshow );
                 finalpage.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+
                 getApplicationContext().startActivity(finalpage);
+
                 finish();
 
             }

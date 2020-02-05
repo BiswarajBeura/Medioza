@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 public class FinalPage extends AppCompatActivity {
     private TextView msgText;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -108,7 +108,7 @@ public class AppointmentBooking extends AppCompatActivity {
                         confirm.putExtra("nameofuser" , nameofuser);
                         confirm.putExtra("phonenumber" , phoneNumber);
                         confirm.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                        getApplication().startActivity(confirm);
+                        getApplicationContext().startActivity(confirm);
                         finish();
                     }
                 });
