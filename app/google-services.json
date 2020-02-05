@@ -15,14 +15,6 @@
       },
       "oauth_client": [
         {
-          "client_id": "1064658299546-scfjtk677g21fvt5q8v8o8emlebn93s9.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.mediozo",
-            "certificate_hash": "3623156b833282dda819e7360c1ccceba3ae3484"
-          }
-        },
-        {
           "client_id": "1064658299546-benfh99mamdktmfk9fmbk0kbe6qlg1gs.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
